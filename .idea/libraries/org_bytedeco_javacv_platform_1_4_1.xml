@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="org.bytedeco:javacv-platform:1.4.1" type="repository">
+    <properties maven-id="org.bytedeco:javacv-platform:1.4.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/javacv-platform-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javacv-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javacpp-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opencv-3.4.1-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ffmpeg-3.4.2-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flycapture-2.11.3.121-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libdc1394-2.2.5-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libfreenect-0.5.3-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libfreenect2-0.2.0-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/librealsense-1.12.1-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/videoinput-0.200-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/artoolkitplus-2.3.1-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flandmark-1.07-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opencv-platform-3.4.1-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ffmpeg-platform-3.4.2-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flycapture-platform-2.11.3.121-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libdc1394-platform-2.2.5-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libfreenect-platform-0.5.3-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/libfreenect2-platform-0.2.0-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/librealsense-platform-1.12.1-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/videoinput-platform-0.200-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/artoolkitplus-platform-2.3.1-1.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/flandmark-platform-1.07-1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://C:/Program Files/OpenCV/build/java/x64" />
+      <root url="file://C:/Program Files/OpenCV/build/etc/haarcascades" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>
