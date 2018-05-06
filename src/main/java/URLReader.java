@@ -1,11 +1,19 @@
 //package main.java;
 
-import java.net.*;
-import java.io.*;
-import java.util.regex.Pattern;
-import java.util.regex.Matcher;
-import java.nio.file.*;
+import javax.swing.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardCopyOption;
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 public class URLReader {
 
@@ -14,16 +22,20 @@ public class URLReader {
 
     public static void main(String[] args) throws Exception {
 
-        URLReader rdr = new URLReader();
-        Countries cnt = new Countries();
+        JFrame frame = new JFrame("InputDialog Example #1");
+        String dest_dir = (String)JOptionPane.showInputDialog(frame, "Please enter destination directory!");
 
-    for (int a = 0; a < cnt.countries.length; a++) {
-        System.out.println(cnt.countries[a]);
-        rdr.getCountry(cnt.countries[a]);
+        URLReader rdr = new URLReader();
+        Keywords keyw = new Keywords();
+
+
+    for (int a = 0; a < keyw.countries.length; a++) {
+        System.out.println(keyw.countries[a]);
+        rdr.getCountry(keyw.countries[a]);
         rdr.stat_countries++;
     }
 
-        System.out.println("Total amount of pictures from" + rdr.stat_countries + "countries: " + rdr.stat_images);
+        System.out.println("Total amount of pictures from " + rdr.stat_countries + " countries: " + rdr.stat_images);
 
     }
 

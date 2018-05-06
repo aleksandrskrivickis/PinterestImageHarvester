@@ -1,6 +1,7 @@
 // main.java;
 
-public class Countries {
+public class Keywords {
+
     String[] countries = new String[]{
             "Afghan",
             "Albanian",
